@@ -544,6 +544,7 @@ while run:
                         captured_pieces_black.append(white_pieces[white_piece])
                         if white_pieces[white_piece] == 'king':
                             winner = 'black'
+
                         white_pieces.pop(white_piece)
                         white_locations.pop(white_piece)
                         white_moved.pop(white_piece)
